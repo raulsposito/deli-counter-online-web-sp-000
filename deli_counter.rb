@@ -9,6 +9,6 @@ def line(line_method_array)
     line_method_array.each.with.index(0) do |name, index|
       line_method_array.push("#{index}. #{name}")
     end
-    puts "The line is: #{line_method_array.join(" ")}"
+    puts "There are people in the line, your turn is: #{line_method_array.join(" ")}"
   end
 end
