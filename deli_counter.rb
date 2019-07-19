@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli = []
-#line method should show hteir place in line 
+#line method should show their place in line 
 def line(numberinline)
   line_method_array = []
   if numberinline.length == 0
